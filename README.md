@@ -1,10 +1,11 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Componentes, props e ES6
+# Estado
 
 ## Exercícios de classe 🏫
-1. Alertas
-2. Cards de usuário
+1. Alerta de cookie
+2. Card de usuário
+3. Carrinho de lanches
 
 ---
 
