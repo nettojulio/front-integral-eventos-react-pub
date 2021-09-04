@@ -1,11 +1,9 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Estado
+# Eventos no React
 
 ## Exercícios de classe 🏫
-1. Alerta de cookie
-2. Card de usuário
-3. Carrinho de lanches
+1. Lista de tarefas
 
 ---
 
