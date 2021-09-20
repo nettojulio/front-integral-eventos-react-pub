@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
-  /* outline: 2px dashed crimson; */
 }
 
 body {
@@ -60,6 +59,7 @@ input {
   background-color: #ffffff;
   box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
   border-radius: 5px;
+  border: none;
 
   margin-top: 30px;
   padding: 23px;
@@ -68,7 +68,6 @@ input {
   font-weight: normal;
   font-size: 18px;
   line-height: 18px;
-  /* identical to box height */
 
   letter-spacing: -0.25px;
 
@@ -86,9 +85,9 @@ input::placeholder {
   color: #9495a5;
 }
 
-.teste {
+.task-manager {
   width: 540px;
-  min-height: 440px;
+  min-height: 40px;
 
   position: absolute;
   top: 220px;
@@ -117,7 +116,10 @@ li {
   justify-content: space-between;
   align-items: center;
   margin: 20px 25px;
-  outline: 1px dashed purple;
+}
+
+li > p {
+  cursor: pointer;
 }
 
 nav {
@@ -134,4 +136,37 @@ nav > p {
 
   letter-spacing: -0.194444px;
   color: #9495a5;
+  cursor: pointer;
+}
+
+nav > p:hover {
+  color: #0000ff;
+  text-shadow: 5px 5px 5px #000000;
+}
+
+nav > p:first-child {
+  cursor: unset;
+}
+
+nav > p:hover:first-child {
+  color: #9495a5;
+  text-shadow: 0px 0px 0px #fff;
+}
+
+.task_true {
+  text-decoration: line-through;
+  color: #d2d1da;
+}
+
+.task_false {
+  text-decoration: none;
+  color: #494c6b;
+}
+
+.visible {
+  display: flex;
+}
+
+.hidden {
+  display: none;
 }
