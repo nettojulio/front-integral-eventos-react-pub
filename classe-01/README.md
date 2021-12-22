@@ -3,9 +3,13 @@
 # Exercício de classe 🏫
 
 ## Lista de tarefas
+
+<https://front-integral-eventos-react-pub-classe-01.vercel.app/>
+
 Utilizando o projeto React da pasta "base" como base (ou criando um projeto a partir do comando `npx create-react-app nome-do-projeto`), siga as seguintes instruções:
 
 **Se estiver utilizando o projeto da pasta "base"**:
+
 - Entre na pasta base pelo terminal e execute o comando `npm install` para instalar as dependências já presentes no package.json
 
 - **NÃO SE PREOCUPE COM O LAYOUT**, ele é apenas um guia, o foco aqui é funcionalidade.
